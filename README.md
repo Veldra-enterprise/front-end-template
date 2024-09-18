@@ -48,11 +48,10 @@ Here are some useful commands to manage and customize your project:
   git remote remove origin
 
 - **Deploy**
-
-  
-      ```bash
-     npm run build
-     npm start
+      
+    ```bash
+         npm run build
+         npm start
 
 ## 🌍 Internationalization and Theme
 
