@@ -22,7 +22,7 @@ export default function Header() {
 
     ];
 
-    const backgroundClass = theme === 'light' ? 'bg-gray-100' : 'bg-gray-800';
+    const backgroundClass = theme === 'light' ? 'bg-gray-400' : 'bg-gray-600';
     const textClass = theme === 'light' ? 'text-black' : 'text-white';
 
     return (
@@ -33,7 +33,7 @@ export default function Header() {
                         {link.text}
                     </Link>
                 ))}
-                <Link href={'#contact'}>
+                <Link href={'mailto:enterpriseveldra@gmail.com'}>
                     <FontAwesomeIcon icon={faEnvelope}/>
                 </Link>
             </div>

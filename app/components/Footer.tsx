@@ -9,7 +9,7 @@ export default function Footer() {
     const { locale } = useLocale();
     const { theme } = useTheme();
 
-    const backgroundClass = theme === 'light' ? 'bg-gray-100' : 'bg-gray-800';
+    const backgroundClass = theme === 'light' ? 'bg-gray-400' : 'bg-gray-600';
     const textClass = theme === 'light' ? 'text-black' : 'text-white';
 
     return (

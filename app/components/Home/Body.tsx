@@ -37,7 +37,7 @@ export default function HomeBody() {
     const currentContent = locale === 'en' ? content.en : content.fr;
 
     return (
-        <div className={`p-6 space-y-14 ${theme === 'light' ? 'bg-light text-black' : 'bg-gray-400 text-white'}`}>
+        <div className={`p-7  space-y-12 ${theme === 'light' ? 'bg-gray-100 text-black' : 'bg-gray-800 text-white'}`}>
             <h1 className="text-3xl font-bold mb-4">{currentContent.welcome}</h1>
             <p className="mb-4">{currentContent.description}</p>
 
